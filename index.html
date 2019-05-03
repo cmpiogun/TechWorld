@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tech World Design | Welcome</title>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="description" content="web design all about the tech world">
+        <meta name="author" content="Ikechukwu Ubaka Ogunwa, Bsc Computer Science">
+        <meta name="keywords" content="web design, tech, advanced web development">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <script>
+            $(document).ready(function(){
+                //your programme goes here
+                $('#box').click(function(){
+                    alert('you clicked the button');
+                }); 
+                
+                $('#Btn1').click(function(){
+                    $(this).var("stop that!!");
+                });
+            }); //end ready
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Tech</span> World Design</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html"> About</a></li>
+                        <li><a href="service.html">Service</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="showcase">
+            <div class="container">
+                <h1>Affordable Professional Web Design and Training</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tortor consequat, varius est ut, ultricies odio. Donec erat odio, volutpat a eleifend eget</p>
+            </div> 
+        </section>
+        
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to our Newsletter</h1>
+                <form>
+                    <input type="email" placeholder="Enter E-Mail...">
+                    <button type="submit" class="Btn1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="Boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="logo_html.png">
+                    <h3>HTML5 Markup</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tortor consequat, varius</p>
+                </div>
+                <div class="box">
+                    <img src="logo_brush.png">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tortor consequat, varius</p>
+                </div>
+                <div class="box">
+                    <img src="logo_css.png">
+                    <h3>CSS3 Styling</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tortor consequat, varius</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="showcases">
+            <div class="container">
+                <h1>We believe in free quality education for everyone</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tortor consequat, varius est ut, ultricies odio. Donec erat odio, volutpat a eleifend eget</p>
+            </div> 
+        </section>
+        
+        <footer>
+            <p> Tech World Web Design, Copyright &copy; 2017 <span class="highlighter">POWERED BY</span> Henry Ubaka</p> 
+        </footer>
+    </body>
+</html>
